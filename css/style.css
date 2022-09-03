@@ -1,0 +1,136 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lobster');*/
+
+body {
+    background-color: #050948;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 40px 0 40px;
+}
+
+#hello {
+    font-family: Lobster;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid grey;
+    margin: 2% auto;
+}
+
+#video {
+    padding: 150px;
+    height: 500px;
+    color: #fff;
+    background-color: #00bcd4 !important;
+}
+
+.thumbnail {
+    padding: 30px;
+}
+
+.carousel-inner>.item>img {
+    margin: 0 auto;
+}
+
+.small-screen {
+    display: none;
+}
+
+.medium-screen {
+    display: none;
+}
+
+.styled {
+    border: 0;
+    width: 55vw;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, .2),
+            rgba(0, 0, 0, .2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+        inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+
+@media screen and (max-width: 1007px) {
+
+    .large-screen {
+        display: none;
+    }
+
+    .medium-screen {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .small-screen {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .medium-screen {
+        display: none;
+    }
+
+    .large-screen {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .small-screen {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .medium-screen {
+        display: none;
+    }
+
+    .large-screen {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .small-screen {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .medium-screen {
+        display: none;
+    }
+
+    .large-screen {
+        display: none;
+    }
+}
