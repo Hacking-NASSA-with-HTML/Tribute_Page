@@ -17,3 +17,8 @@ grabTheButtonToPlayBackgroundMusic.addEventListener('click', () => {
         backgroundMusic = true
     }
 })
+
+mySound.addEventListener('ended', () => {
+    grabTheButtonToPlayBackgroundMusic.innerText = 'Play Background Music'
+    backgroundMusic = true
+})
