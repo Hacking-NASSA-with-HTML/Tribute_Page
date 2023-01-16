@@ -1,7 +1,7 @@
 
 let grabTheButtonToPlayBackgroundMusic = document.getElementById('playMusic')
 grabTheButtonToPlayBackgroundMusic.innerText = 'Play Background Music'
-let mySound = new Audio('./FreeCodeCamp.mp3')
+let mySound = new Audio('./js/FreeCodeCamp.mp3')
 let backgroundMusic = true
 
 
