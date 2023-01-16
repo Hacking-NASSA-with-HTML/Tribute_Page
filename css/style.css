@@ -25,10 +25,9 @@ h4 {
 }
 
 #video {
-    padding: 150px;
-    height: 500px;
+    height: auto;
     color: #fff;
-    background-color: #00bcd4 !important;
+    background-color: #00bcd4;
 }
 
 .thumbnail {
