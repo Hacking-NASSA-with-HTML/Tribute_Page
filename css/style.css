@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Lobster');*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
     background-color: #050948;
@@ -12,7 +12,7 @@ h4 {
 }
 
 #hello {
-    font-family: Lobster;
+    font-family: 'Lobster', cursive;
 }
 
 .arrow-down {
