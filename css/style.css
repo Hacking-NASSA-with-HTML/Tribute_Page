@@ -6,15 +6,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    padding: 40px 0 40px;
+#hello h2,
+#hello h3,
+#hello h4 {
+    padding: 40px 0;
+    color: #fff;
 }
 
 #hello {
     font-family: 'Lobster', cursive;
+    color: #fff;
+    padding: 100px 0 200px;
+    min-height: 120vh;
+}
+
+.titleH1 {
+    padding: 40px 0;
+    color: #050948 !important;
+    font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
+.wrapper h2 {
+    padding: 40px 0;
+    color: #050948;
 }
 
 .arrow-down {
