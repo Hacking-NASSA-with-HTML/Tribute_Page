@@ -2,7 +2,7 @@
 
 # Tribute Page Task FreeCodeCamp Example 📘🎓.
 
-## Tribute Page to Quincy Larson, the Founder of FreeCodeCamp.
+## Example of the assignment tribute page from FreeCodeCamp, 💎 my Tribute Page to Quincy Larson, the Founder of FreeCodeCamp.
 
 ---
 This is my Tribute Page to Quincy Larson ❤️ , the teacher and "guy who started it" - FreeCodeCamp 💎
